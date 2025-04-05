@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# RBAC Dashboard Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the **frontend** for **RBAC Dashboard** — a role-based access control system built using the **MERN** stack. The application provides a seamless and secure user experience with clear **Admin/User** role separation and intuitive user management features.
+
+Built with **React** and **Bootstrap**, the interface is responsive, clean, and user-friendly.
+
+---
+
+## Tech Stack
+
+- **Framework**: React
+- **UI Library**: Bootstrap
+- **API Communication**: Axios
+- **State Management**: React Hooks
+- **Routing**: React Router
+
+---
+
+## Installation
+
+1. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+2. **Set environment variables**
+
+   Create a `.env` file in the `frontend/` directory:
+
+   ```env
+   REACT_APP_BACKEND_URL=Your_Backend_API_URL
+   ```
+
+---
+
+## Running the App
+
+To start the development server:
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+---
 
 ## Available Scripts
 
-In the project directory, you can run:
+| Command         | Description                   |
+| --------------- | ----------------------------- |
+| `npm start`     | Start the development server  |
+| `npm run build` | Build the app for production  |
+| `npm test`      | Run tests                     |
+| `npm run eject` | Eject the app from CRA config |
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **User Registration & Login** – Secure user authentication
+- **Role-Based Dashboard** – Separate views for Admin and User roles
+- **Admin Privileges** – Promote/demote users, delete users
+- **Protected Routes** – Access control based on roles
+- **Responsive Design** – Fully responsive layout with Bootstrap
+- **Alerts & Notifications** – Inform users of key actions and status
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Enhancements
 
-### `npm run build`
+- **UI Improvements with Material-UI or Tailwind**
+- **Activity Logs**
+- **Role Customization (more than just Admin/User)**
+- **Forgot Password / Email Verification**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is licensed under the [MIT License](LICENSE).
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For any queries or contributions, feel free to connect:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Author**: Kshitij Agrawal
+- **Email**: akshitij70@gmail.com
